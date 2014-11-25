@@ -652,8 +652,9 @@
 				INFOPLIST_FILE = VibroStatic/Info.plist;
 				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LINK_WITH_STANDARD_LIBRARIES = NO;
-				MACH_O_TYPE = mh_object;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Vibro;
@@ -700,8 +701,9 @@
 				INFOPLIST_FILE = VibroStatic/Info.plist;
 				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LINK_WITH_STANDARD_LIBRARIES = NO;
-				MACH_O_TYPE = mh_object;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Vibro;
 				SDKROOT = iphoneos8.1;
@@ -730,6 +732,7 @@
 				463ADEC51A2537FA00A4CA5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		463ADEE31A253E3D00A4CA5A /* Build configuration list for PBXNativeTarget "Vibro" */ = {
 			isa = XCConfigurationList;
@@ -738,6 +741,7 @@
 				463ADEE51A253E3D00A4CA5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		463ADF031A253F2800A4CA5A /* Build configuration list for PBXNativeTarget "VibroStatic" */ = {
 			isa = XCConfigurationList;
@@ -746,6 +750,7 @@
 				463ADF051A253F2800A4CA5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
