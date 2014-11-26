@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460241141A264E660004232A /* VBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 460241131A264E660004232A /* VBSwizzler.m */; };
+		460241151A26533E0004232A /* VBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 460241131A264E660004232A /* VBSwizzler.m */; };
+		460241161A26533F0004232A /* VBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 460241131A264E660004232A /* VBSwizzler.m */; };
 		463ADEA91A2537FA00A4CA5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 463ADEA81A2537FA00A4CA5A /* main.m */; };
 		463ADEAC1A2537FA00A4CA5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 463ADEAB1A2537FA00A4CA5A /* AppDelegate.m */; };
 		463ADEAF1A2537FA00A4CA5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463ADEAE1A2537FA00A4CA5A /* ViewController.m */; };
@@ -50,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		460241131A264E660004232A /* VBSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSwizzler.m; sourceTree = "<group>"; };
 		463ADEA31A2537FA00A4CA5A /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		463ADEA71A2537FA00A4CA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		463ADEA81A2537FA00A4CA5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 			children = (
 				6B876700B7471B3B86A5FC37 /* VBURLProtocol.h */,
 				6B876DBC164F212079D8037F /* VBURLProtocol.m */,
+				460241131A264E660004232A /* VBSwizzler.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				463ADEAF1A2537FA00A4CA5A /* ViewController.m in Sources */,
+				460241141A264E660004232A /* VBSwizzler.m in Sources */,
 				463ADEAC1A2537FA00A4CA5A /* AppDelegate.m in Sources */,
 				463ADEA91A2537FA00A4CA5A /* main.m in Sources */,
 			);
@@ -371,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				463ADEEA1A253E7B00A4CA5A /* VBURLProtocol.m in Sources */,
+				460241161A26533F0004232A /* VBSwizzler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				463ADF091A253F8A00A4CA5A /* VBURLProtocol.m in Sources */,
+				460241151A26533E0004232A /* VBSwizzler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

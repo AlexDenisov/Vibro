@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'VibroFramework'
-  s.version  = '0.1.0'
+  s.version  = '0.2.0'
   s.license  = 'MIT'
   s.summary  = 'Feel the network interaction'
   s.homepage = 'https://github.com/AlexDenisov/Vibro'

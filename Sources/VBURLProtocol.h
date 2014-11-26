@@ -6,5 +6,5 @@
 #import <Foundation/Foundation.h>
 
 @interface VBURLProtocol : NSURLProtocol
-
++ (void)startHandling;
 @end

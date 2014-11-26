@@ -8,6 +8,7 @@
 
 static NSString *const kVBURLProtocolKey = @"kVBURLProtocolKey";
 static NSString *const kVBURLProtocolProperty = @"kVBURLProtocolProperty";
+static BOOL kVBURLHandlingEnabled = NO;
 
 @interface VBURLProtocol ()
     <NSURLConnectionDataDelegate,
@@ -19,7 +20,16 @@ static NSString *const kVBURLProtocolProperty = @"kVBURLProtocolProperty";
 
 @implementation VBURLProtocol
 
++ (void)startHandling {
+    kVBURLHandlingEnabled = YES;
+    [NSURLProtocol registerClass:self];
+}
+
 + (BOOL)canInitWithRequest:(NSURLRequest *)request {
+    if (!kVBURLHandlingEnabled) {
+        return NO;
+    }
+    
     NSString *property = [self propertyForKey:kVBURLProtocolKey inRequest:request];
     if ([property isEqual:kVBURLProtocolProperty]) {
         return NO;
