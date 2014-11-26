@@ -6,8 +6,8 @@
 #import "VBURLProtocol.h"
 #import <AudioToolbox/AudioToolbox.h>
 
-static NSString *kVBURLProtocolKey = @"kVBURLProtocolKey";
-static NSString *kVBURLProtocolProperty = @"kVBURLProtocolProperty";
+static NSString *const kVBURLProtocolKey = @"kVBURLProtocolKey";
+static NSString *const kVBURLProtocolProperty = @"kVBURLProtocolProperty";
 
 @interface VBURLProtocol ()
     <NSURLConnectionDataDelegate,
